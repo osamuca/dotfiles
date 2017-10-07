@@ -1,19 +1,5 @@
 #!/bin/bash
 
-# Vim e thema onedark
-#
-#
-sudo apt-get update
-sudo apt-get install vim
-mkdir ~/.vim
-mkdir ~/.vim/colors
-mv Arquivos_Configuracao/onedark.vim ~/.vim/colors
-sudo bash -c 'echo "" >> /etc/vim/vimrc'
-sudo bash -c 'echo "colorscheme onedark" >> /etc/vim/vimrc'
-#
-
-
-
 #  Instalação do Java
 #
 #  	JDK e JRE do Java.
@@ -24,16 +10,12 @@ sudo apt-get install oracle-java8-installer -y
 sudo apt-get install oracle-java8-set-default -y
 #
 
-
-
 #  Instalação do git
 #
 #  	Controle de versão de códigos.
 #
 sudo apt-get install git -y
 #
-
-
 
 #  Instalação do zsh
 #
@@ -42,8 +24,6 @@ sudo apt-get install git -y
 sudo apt-get install zsh -y
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 #
-
-
 
 #  Instalação do VLC
 #
@@ -54,16 +34,12 @@ sudo apt-get update
 sudo apt-get install vlc -y
 #
 
-
-
 #  Instalação do tree
 #
 #  	Ao escrever tree no terminal, é mostrado uma árvore de diretórios a partir do diretório atual que esteja.
 #
 sudo apt-get install tree -y
 #
-
-
 
 #  Instalação do htop
 #
